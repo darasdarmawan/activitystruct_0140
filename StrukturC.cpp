@@ -31,7 +31,7 @@ int main() {
 	cout << "Umur Mahasiswa : ";
 	cin >> mhs[i].umur;
     cin.ignore(1, '\n');
-    cout<<endl;
+    cout << endl;
     }
     for (int i = 0; i < 3; i++) {
 	cout << endl;
@@ -42,6 +42,6 @@ int main() {
     cout << "\n Desa : " << mhs[i].alamat.desa;
     cout << "\n Kota : " << mhs[i].alamat.kota; 
     cout << "\n Umur : " << mhs[i].umur;
-    cout<<endl;
+    cout << endl;
     }
 }
